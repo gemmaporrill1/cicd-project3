@@ -8,9 +8,9 @@ services:
       - "5000:5000"
     environment:
       MYSQL_HOST: mysql
-      MYSQL_USER: admin
-      MYSQL_PASSWORD: admin
-      MYSQL_DB: myDb
+      MYSQL_USER: gemmaporrill1
+      MYSQL_PASSWORD: hello@123
+      MYSQL_DB: testdb
     depends_on:
       - mysql
 
